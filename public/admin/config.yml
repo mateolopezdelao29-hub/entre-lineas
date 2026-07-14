@@ -6,7 +6,7 @@
 
 backend:
   name: github
-  repo: TU-USUARIO/entre-lineas   # <-- cámbialo cuando subas el repo
+  repo: mateolopezdelao-29/entre-lineas   # <-- cámbialo cuando subas el repo
   branch: main
   # OAuth: la forma recomendada es un Cloudflare Worker gratuito.
   # Guía: https://github.com/sveltia/sveltia-cms-auth
