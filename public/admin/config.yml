@@ -6,8 +6,9 @@
 
 backend:
   name: github
-  repo: mateolopezdelao-29/entre-lineas   # <-- cámbialo cuando subas el repo
+  repo: mateolopezdelao29-hub/entrelineas
   branch: main
+  base_url: https://sveltia-auth.mateolopezdelao29.workers.dev
   # OAuth: la forma recomendada es un Cloudflare Worker gratuito.
   # Guía: https://github.com/sveltia/sveltia-cms-auth
   # Mientras montas OAuth, puedes probar en local con: `local_backend: true` abajo.
