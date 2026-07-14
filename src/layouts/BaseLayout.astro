@@ -35,16 +35,31 @@ const {
   <SiteHeader compact={compactHeader} active={active} />
   <slot />
   <SiteFooter variant={footerVariant} />
-<script is:inline>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-</script>
+  <script is:inline>
+    (function(){
+      var dias=["domingo","lunes","martes","miércoles","jueves","viernes","sábado"];
+      var meses=["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
+      var d=new Date();
+      var f=dias[d.getDay()]+", "+d.getDate()+" de "+meses[d.getMonth()]+" de "+d.getFullYear();
+      f=f.charAt(0).toUpperCase()+f.slice(1);
+      var el=document.getElementById("fecha"); if(el){el.textContent=f+" · Ciudad de México";}
+      var y=document.getElementById("anio"); if(y){y.textContent=d.getFullYear();}
+      var dow=d.getDay();
+      var cell=document.querySelector('#roster .day[data-dow="'+dow+'"]');
+      if(cell){cell.classList.add('today');}
+    })();
+  </script>
+  <script is:inline>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", function(user){
+        if (!user) {
+          window.netlifyIdentity.on("login", function(){
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
 </body>
+</html>
 </html>
