@@ -1,0 +1,61 @@
+---
+interface Props { variant?: 'simple' | 'full'; }
+const { variant = 'simple' } = Astro.props;
+---
+{variant === 'full' ? (
+  <footer class="full">
+    <div class="wrap">
+      <div>
+        <div class="fm">Entre<span class="amp"> </span>Líneas</div>
+        <p>Periodismo de investigación y opinión desde la Ciudad de México. Contamos lo que pasa entre las líneas de los documentos, los presupuestos y los discursos.</p>
+      </div>
+      <div>
+        <h6>Secciones</h6>
+        <ul>
+          <li><a href="/investigacion/">Investigación</a></li>
+          <li><a href="/ciudad/">Ciudad</a></li>
+          <li><a href="/opinion/">Opinión</a></li>
+          <li><a href="/opinion/">Academia</a></li>
+          <li><a href="/datos/">Datos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h6>Entre Líneas</h6>
+        <ul>
+          <li><a href="/nosotros/">Quiénes somos</a></li>
+          <li><a href="/opinion/">Opinión</a></li>
+          <li><a href="/nosotros/">Escribe con nosotros</a></li>
+          <li><a href="/nosotros/">Contacto</a></li>
+        </ul>
+      </div>
+      <div>
+        <h6>Sigue el hilo</h6>
+        <ul>
+          <li><a href="/nosotros/">Newsletter diario</a></li>
+          <li><a href="/nosotros/">Suscríbete</a></li>
+          <li><a href="/nosotros/">Aviso de privacidad</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="colophon">
+      <div class="wrap">
+        <span>© <span id="anio">2026</span> Entre Líneas</span>
+        <span>Hecho en la Ciudad de México</span>
+      </div>
+    </div>
+  </footer>
+) : (
+  <footer class="simple">
+    <div class="wrap">
+      <div class="fm">Entre<span class="amp"> </span>Líneas</div>
+      <nav class="fnav">
+        <a href="/nosotros/">Quiénes somos</a>
+        <a href="/opinion/">Opinión</a>
+        <a href="/nosotros/">Escribe con nosotros</a>
+        <a href="/nosotros/">Contacto</a>
+        <a href="/nosotros/">Aviso de privacidad</a>
+      </nav>
+      <small>© <span id="anio">2026</span> Entre Líneas · Hecho en la Ciudad de México</small>
+    </div>
+  </footer>
+)}

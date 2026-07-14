@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+import { fechaCorta } from '../../lib/fechas';
+
+export async function getStaticPaths() {
+  const cols = await getCollection('columnas');
+  return cols.map(c => ({ params: { slug: c.id }, props: { col: c } }));
+}
+
+const { col } = Astro.props;
+const { Content } = await render(col);
+---
+<BaseLayout title={col.data.title} description={col.data.dek} active="Opinión">
+  <article>
+    <header class="feature-head" style="margin-top:36px;">
+      <div class="date">{fechaCorta(col.data.fecha)}{col.data.edicion ? ` · ${col.data.edicion}` : ''}</div>
+      <h2>{col.data.title}</h2>
+      <p class="deck">{col.data.dek}</p>
+      <div class="authorbar" style="margin-top:22px;">
+        <div class="who"><div class="mono-sm">M</div><span class="byline">{col.data.autor}</span></div>
+      </div>
+    </header>
+    <div class="read col-body">
+      <Content />
+    </div>
+    <div class="wrap" style="text-align:center;margin-top:40px;">
+      <a class="btn ghost" href="/columna/">← Ver todas las columnas</a>
+    </div>
+  </article>
+</BaseLayout>

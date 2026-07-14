@@ -1,0 +1,80 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+import { fechaCorta, diasDesde } from '../../lib/fechas';
+
+export async function getStaticPaths() {
+  const notas = await getCollection('notas');
+  return notas.map(n => ({ params: { slug: n.id }, props: { nota: n } }));
+}
+
+const { nota } = Astro.props;
+const { Content } = await render(nota);
+
+const SECCIONES: Record<string,string> = {
+  investigacion:'Investigación', nacional:'Nacional', ciudad:'Ciudad', datos:'Datos',
+};
+const seccionLabel = SECCIONES[nota.data.seccion];
+const seccionHref = `/${nota.data.seccion}/`;
+
+const relacionadas = (await getCollection('notas'))
+  .filter(n => n.id !== nota.id && n.data.seccion === nota.data.seccion)
+  .sort((a,b) => b.data.fecha.getTime() - a.data.fecha.getTime())
+  .slice(0,3);
+---
+<BaseLayout title={nota.data.title} description={nota.data.dek} active={seccionLabel}>
+  <div class="crumb" style="font-family:Archivo,sans-serif;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);text-align:center;margin:30px 0 22px;">
+    <a href={seccionHref}>{seccionLabel}</a>{nota.data.subtema && <> <span style="color:var(--rule);margin:0 8px;">/</span> <a href={seccionHref}>{nota.data.subtema}</a></>}
+  </div>
+
+  <article>
+    <header class="art-head">
+      <span class="kicker">{seccionLabel}{nota.data.subtema ? ` · ${nota.data.subtema}` : ''}</span>
+      <h1>{nota.data.title}</h1>
+      <p class="deck">{nota.data.dek}</p>
+      <div class="authorbar">
+        <div class="who">
+          <div class="mono-sm">EL</div>
+          <span class="byline">{nota.data.autor}</span>
+        </div>
+        <span class="dot">·</span>
+        <span class="meta">Publicado {fechaCorta(nota.data.fecha)}</span>
+        <span class="dot">·</span>
+        <span class="meta">Lectura {nota.data.lectura}</span>
+      </div>
+    </header>
+
+    <div class="art-hero">
+      <div class="photo"><span class="mono">EL</span></div>
+      <p class="caption"><em>Ilustración editorial.</em> — Entre Líneas</p>
+    </div>
+
+    <div class="read body">
+      <Content />
+
+      <div class="authorcard">
+        <div class="mono">EL</div>
+        <div>
+          <div class="n">{nota.data.autor}</div>
+          <div class="r">Entre Líneas</div>
+          <p>Equipo de {seccionLabel} de Entre Líneas. Trabajamos con documentos públicos, solicitudes de transparencia y análisis reproducible.</p>
+        </div>
+      </div>
+    </div>
+
+    {relacionadas.length > 0 && (
+      <section class="related wrap">
+        <div class="band"><span>Seguir leyendo</span></div>
+        <div class="rel-grid">
+          {relacionadas.map(r => (
+            <article class="rel">
+              <span class="kicker">{r.data.subtema ?? seccionLabel}</span>
+              <h4><a href={`/nota/${r.id}/`}>{r.data.title}</a></h4>
+              <p>{r.data.dek}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+    )}
+  </article>
+</BaseLayout>

@@ -1,0 +1,87 @@
+# =========================================================
+# Entre Líneas — configuración del editor no-code (Sveltia CMS)
+# Docs: https://sveltiacms.app/en/docs/
+# Cuando lo subas a GitHub, cambia backend.repo y branch.
+# =========================================================
+
+backend:
+  name: github
+  repo: TU-USUARIO/entre-lineas   # <-- cámbialo cuando subas el repo
+  branch: main
+  # OAuth: la forma recomendada es un Cloudflare Worker gratuito.
+  # Guía: https://github.com/sveltia/sveltia-cms-auth
+  # Mientras montas OAuth, puedes probar en local con: `local_backend: true` abajo.
+
+# Descomenta esta línea para editar en tu compu antes de subir OAuth:
+# local_backend: true
+
+media_folder: "public/assets"
+public_folder: "/assets"
+
+publish_mode: simple    # publica directo a la rama; sencillo para arrancar
+
+collections:
+
+  - name: "notas"
+    label: "Notas"
+    label_singular: "Nota"
+    folder: "src/content/notas"
+    create: true
+    slug: "{{slug}}"
+    format: "frontmatter"
+    extension: "md"
+    fields:
+      - { name: title,    label: "Titular",         widget: string }
+      - { name: dek,      label: "Sumario (deck)",  widget: text }
+      - name: seccion
+        label: "Sección"
+        widget: select
+        options:
+          - { label: "Investigación", value: "investigacion" }
+          - { label: "Nacional",       value: "nacional" }
+          - { label: "Ciudad",         value: "ciudad" }
+          - { label: "Datos",          value: "datos" }
+      - { name: subtema,  label: "Subtema (opcional)", widget: string, required: false }
+      - { name: autor,    label: "Autor",           widget: string, default: "Redacción" }
+      - { name: fecha,    label: "Fecha",           widget: datetime, picker_utc: false, format: "YYYY-MM-DD" }
+      - { name: lectura,  label: "Tiempo de lectura", widget: string, default: "6 min" }
+      - { name: portada,  label: "¿Nota principal de portada?", widget: boolean, default: false }
+      - { name: destacada,label: "¿Nota principal de su sección?", widget: boolean, default: false }
+      - { name: body,     label: "Cuerpo",          widget: markdown }
+
+  - name: "columnas"
+    label: "Columnas"
+    label_singular: "Columna"
+    folder: "src/content/columnas"
+    create: true
+    slug: "{{slug}}"
+    format: "frontmatter"
+    extension: "md"
+    fields:
+      - { name: title,   label: "Titular",         widget: string }
+      - { name: dek,     label: "Sumario",         widget: text }
+      - { name: autor,   label: "Autor",           widget: string, default: "Mateo · Tu Nombre" }
+      - { name: fecha,   label: "Fecha",           widget: datetime, picker_utc: false, format: "YYYY-MM-DD" }
+      - { name: edicion, label: "Nº de edición (opcional)", widget: string, required: false }
+      - { name: body,    label: "Cuerpo",          widget: markdown }
+
+  - name: "voces"
+    label: "Voces (Academia)"
+    label_singular: "Voz"
+    folder: "src/content/voces"
+    create: true
+    slug: "{{slug}}"
+    format: "frontmatter"
+    extension: "md"
+    fields:
+      - { name: title,      label: "Titular",       widget: string }
+      - { name: autor,      label: "Autor",         widget: string }
+      - { name: credencial, label: "Credencial (ej. Socióloga · políticas urbanas)", widget: string }
+      - { name: dek,        label: "Sumario",       widget: text }
+      - name: dia
+        label: "Día de la semana (opcional, para el rol diario)"
+        widget: select
+        required: false
+        options: ["Lun","Mar","Mié","Jue","Vie","Sáb","Dom"]
+      - { name: fecha,      label: "Fecha",         widget: datetime, picker_utc: false, format: "YYYY-MM-DD" }
+      - { name: body,       label: "Cuerpo",        widget: markdown }

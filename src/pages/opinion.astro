@@ -1,0 +1,91 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const voces = (await getCollection('voces')).sort((a,b) => b.data.fecha.getTime() - a.data.fecha.getTime());
+const cols = (await getCollection('columnas')).sort((a,b) => b.data.fecha.getTime() - a.data.fecha.getTime());
+const columnaHoy = cols[0];
+
+const dias: Array<{ dow:number, label:string, tipo:'voz'|'columna'|'tbd', title?:string, autor?:string, credencial?:string, mono?:string, href?:string }> = [
+  { dow:1, label:'Lun', tipo:'tbd' },
+  { dow:2, label:'Mar', tipo:'tbd' },
+  { dow:3, label:'Mié', tipo:'tbd' },
+  { dow:4, label:'Jue', tipo:'columna',
+    title: columnaHoy?.data.title,
+    autor: 'Mateo · Tu Nombre',
+    credencial: 'Columna',
+    mono: 'M',
+    href: columnaHoy ? `/columna/${columnaHoy.id}/` : '/columna/'
+  },
+  { dow:5, label:'Vie', tipo:'tbd' },
+  { dow:6, label:'Sáb', tipo:'tbd' },
+  { dow:0, label:'Dom', tipo:'tbd' },
+];
+
+// Llenar días con voces por su .dia declarado
+for (const v of voces) {
+  if (!v.data.dia) continue;
+  const idx = dias.findIndex(d => d.label === v.data.dia && d.tipo === 'tbd');
+  if (idx >= 0) {
+    dias[idx] = {
+      dow: dias[idx].dow, label: dias[idx].label, tipo:'voz',
+      title: v.data.title, autor: v.data.autor, credencial: v.data.credencial,
+      mono: v.data.autor.charAt(0), href: '/opinion/'
+    };
+  }
+}
+---
+<BaseLayout title="Opinión" active="Opinión">
+  <header class="sec-head wrap">
+    <div class="eyebrow">Sección</div>
+    <h1>Opinión</h1>
+    <p class="desc">Argumentos, no gritos. Una firma distinta cada día de la semana y las voces de la academia para pensar la ciudad con evidencia.</p>
+    <nav class="subtopics" aria-label="Subtemas">
+      <a class="on" href="#">Todo</a>
+      <a href="#">Columnas</a>
+      <a href="#">Academia</a>
+      <a href="#">Editorial</a>
+      <a href="#">Cartas</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <div class="roster-head" style="margin-top:40px;"><span>Un columnista cada día</span></div>
+    <p class="roster-sub">Una firma distinta de lunes a domingo · hoy se resalta sola</p>
+
+    <div style="overflow-x:auto;">
+      <div class="roster" id="roster">
+        {dias.map(d => (
+          <div class={`day ${d.tipo === 'tbd' ? 'tbd' : ''}`} data-dow={d.dow}>
+            <div class="dow">{d.label}</div>
+            <div class="mono">{d.tipo === 'tbd' ? '+' : d.mono}</div>
+            <div class="cname">{d.tipo === 'tbd' ? 'Por confirmar' : d.autor}</div>
+            <div class="ccred">{d.tipo === 'tbd' ? '—' : d.credencial}</div>
+            <div class="ctitle">{d.tipo === 'tbd' ? 'Espacio disponible' : (
+              d.href ? <a href={d.href}>{d.title}</a> : d.title
+            )}</div>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <div class="grid-head blue" style="margin-top:56px;"><span>Voces de la academia</span></div>
+    <section class="op-grid">
+      {voces.map(v => (
+        <article class="op-card">
+          <div class="op-head">
+            <div class="m">{v.data.autor.charAt(0)}</div>
+            <div>
+              <div class="op-name">{v.data.autor}</div>
+              <div class="op-role">{v.data.credencial}</div>
+            </div>
+          </div>
+          <h3>{v.data.title}</h3>
+          <p>{v.data.dek}</p>
+        </article>
+      ))}
+    </section>
+
+    <div class="loadmore"><a href="#">Ver todas las voces</a></div>
+  </main>
+</BaseLayout>

@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SectionPage from '../components/SectionPage.astro';
+---
+<BaseLayout title="Ciudad" active="Ciudad">
+  <SectionPage
+    seccion="ciudad"
+    titulo="Ciudad"
+    descripcion="La Ciudad de México se cuenta a ras de banqueta. Colonia por colonia: agua, movilidad, servicios y el trámite que decide si tu problema existe o no para la autoridad."
+    subtemas={["Agua","Movilidad","Servicios","Espacio público","Alcaldías"]}
+  />
+</BaseLayout>

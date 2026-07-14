@@ -1,0 +1,58 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { diasDesde } from '../lib/fechas';
+
+const notas = (await getCollection('notas')).sort((a,b) => b.data.fecha.getTime() - a.data.fecha.getTime());
+const portada = notas.find(n => n.data.portada) ?? notas[0];
+const restantes = notas.filter(n => n.id !== portada.id);
+const secundarias = restantes.slice(0,3);
+const ultimas = restantes.slice(0,5);
+
+const SECCIONES: Record<string,string> = {
+  investigacion:'Investigación', nacional:'Nacional', ciudad:'Ciudad', datos:'Datos',
+};
+---
+<BaseLayout title="Portada" compactHeader={false} footerVariant="full">
+  <main class="wrap">
+
+    <section class="lead">
+      <article class="main">
+        <span class="kicker lead-kicker-rule">{SECCIONES[portada.data.seccion]}{portada.data.subtema ? ` · ${portada.data.subtema}` : ''}</span>
+        <h2 class="headline-xl"><a href={`/nota/${portada.id}/`}>{portada.data.title}</a></h2>
+        <p class="deck">{portada.data.dek}</p>
+        <a href={`/nota/${portada.id}/`}><div class="photo"><span class="mono">EL</span></div></a>
+        <p class="caption"><em>Reconstrucción a partir de documentos.</em> — {portada.data.autor}</p>
+        <div class="article-foot">
+          <span class="byline">Por {portada.data.autor}</span>
+          <span class="dot">·</span>
+          <span class="meta">Lectura {portada.data.lectura}</span>
+        </div>
+      </article>
+
+      <aside class="rail">
+        <h3 class="live"><span class="live-dot"></span> Lo último</h3>
+        <ul class="ticker">
+          {ultimas.map(n => (
+            <li>
+              <span class="t">{diasDesde(n.data.fecha)}</span>
+              <a class="h" href={`/nota/${n.id}/`}>{n.data.title}</a>
+            </li>
+          ))}
+        </ul>
+      </aside>
+    </section>
+
+    <section class="secondary">
+      {secundarias.map(n => (
+        <article class="card">
+          <span class={`kicker${n.data.seccion==='datos' ? ' blue' : ''}`}>{SECCIONES[n.data.seccion]}</span>
+          <h4><a href={`/nota/${n.id}/`}>{n.data.title}</a></h4>
+          <p>{n.data.dek}</p>
+          <span class="byline">{n.data.autor}</span>
+        </article>
+      ))}
+    </section>
+
+  </main>
+</BaseLayout>

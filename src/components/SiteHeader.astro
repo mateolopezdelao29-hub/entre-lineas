@@ -1,0 +1,47 @@
+---
+interface Props {
+  compact?: boolean;
+  active?: string;
+}
+const { compact = true, active } = Astro.props;
+
+const sections = [
+  { label: 'Investigación', href: '/investigacion/' },
+  { label: 'Nacional',      href: '/nacional/' },
+  { label: 'Ciudad',        href: '/ciudad/' },
+  { label: 'Opinión',       href: '/opinion/' },
+  { label: 'Academia',      href: '/opinion/' },
+  { label: 'Datos',         href: '/datos/' },
+];
+---
+<div class="topbar">
+  <div class="wrap">
+    <div class="dateline"><span id="fecha">Ciudad de México</span> · <span class="edicion">Edición Nº 214</span></div>
+    <div class="util">
+      <a href="/nosotros/">Newsletter</a>
+      <a class="subscribe" href="/nosotros/">Suscríbete</a>
+    </div>
+  </div>
+</div>
+
+{compact ? (
+  <div class="masthead-sm">
+    <a href="/"><h2 class="wordmark-sm">Entre<span class="amp"> </span>Líneas</h2></a>
+  </div>
+) : (
+  <header class="masthead">
+    <div class="wrap">
+      <a href="/" style="color:inherit;"><h1 class="wordmark">Entre<span class="amp"> </span>Líneas</h1></a>
+      <div class="tagline">Periodismo de investigación y opinión</div>
+    </div>
+    <div class="rule-thin"></div>
+  </header>
+)}
+
+<nav class={compact ? 'sections thin' : 'sections'} aria-label="Secciones">
+  <div class="wrap">
+    {sections.map(s => (
+      <a href={s.href} class={active === s.label ? 'active' : ''}>{s.label}</a>
+    ))}
+  </div>
+</nav>

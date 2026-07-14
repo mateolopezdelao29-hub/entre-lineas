@@ -1,0 +1,77 @@
+---
+import { getCollection } from 'astro:content';
+import NotaCard from './NotaCard.astro';
+import { diasDesde } from '../lib/fechas';
+
+interface Props {
+  seccion: 'investigacion' | 'nacional' | 'ciudad' | 'datos';
+  titulo: string;
+  descripcion: string;
+  subtemas: string[];
+}
+const { seccion, titulo, descripcion, subtemas } = Astro.props;
+
+const todas = (await getCollection('notas'))
+  .filter(n => n.data.seccion === seccion)
+  .sort((a,b) => b.data.fecha.getTime() - a.data.fecha.getTime());
+
+const principal = todas.find(n => n.data.destacada) ?? todas[0];
+const rail = todas.filter(n => n.id !== principal?.id).slice(0,3);
+const parrilla = todas.filter(n => n.id !== principal?.id).slice(3);
+---
+<header class="sec-head wrap">
+  <div class="eyebrow">Sección</div>
+  <h1>{titulo}</h1>
+  <p class="desc">{descripcion}</p>
+  <nav class="subtopics" aria-label="Subtemas">
+    <a class="on" href="#">Todo</a>
+    {subtemas.map(s => <a href="#">{s}</a>)}
+  </nav>
+</header>
+
+<main class="wrap">
+  {principal && (
+    <section class="lead news">
+      <article class="main">
+        <span class="kicker lead-kicker-rule">{titulo}{principal.data.subtema ? ` · ${principal.data.subtema}` : ''}</span>
+        <h2><a href={`/nota/${principal.id}/`}>{principal.data.title}</a></h2>
+        <p class="deck">{principal.data.dek}</p>
+        <a href={`/nota/${principal.id}/`}><div class="photo"><span class="mono">EL</span></div></a>
+        <p class="caption"><em>{principal.data.autor}</em> — Entre Líneas</p>
+        <div class="article-foot">
+          <span class="byline">{principal.data.autor}</span><span class="dot">·</span>
+          <span class="meta">{diasDesde(principal.data.fecha)}</span><span class="dot">·</span>
+          <span class="meta">{principal.data.lectura}</span>
+        </div>
+      </article>
+
+      <aside class="rail">
+        {rail.map(n => (
+          <div class="r-item">
+            <span class="kicker">{n.data.subtema ?? titulo}</span>
+            <h3><a href={`/nota/${n.id}/`}>{n.data.title}</a></h3>
+            <span class="byline">{n.data.autor} · {diasDesde(n.data.fecha)}</span>
+          </div>
+        ))}
+      </aside>
+    </section>
+  )}
+
+  {parrilla.length > 0 && (
+    <>
+      <div class="grid-head"><span>Todo en {titulo}</span></div>
+      <section class="grid">
+        {parrilla.map(n => (
+          <NotaCard
+            href={`/nota/${n.id}/`}
+            kicker={n.data.subtema ?? titulo}
+            title={n.data.title}
+            dek={n.data.dek}
+            autor={n.data.autor}
+            fecha={n.data.fecha}
+          />
+        ))}
+      </section>
+    </>
+  )}
+</main>
