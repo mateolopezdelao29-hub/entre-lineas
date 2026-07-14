@@ -5,12 +5,8 @@
 # =========================================================
 
 backend:
-  name: github
-  repo: mateolopezdelao29-hub/entrelineas
+  name: git-gateway
   branch: main
-  base_url: https://oauth.decapbridge.com
-  auth_endpoint: /auth
-  site_domain: entrelineas-mx.netlify.app
   # OAuth: la forma recomendada es un Cloudflare Worker gratuito.
   # Guía: https://github.com/sveltia/sveltia-cms-auth
   # Mientras montas OAuth, puedes probar en local con: `local_backend: true` abajo.
