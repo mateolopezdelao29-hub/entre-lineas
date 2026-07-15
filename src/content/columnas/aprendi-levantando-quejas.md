@@ -1,9 +1,10 @@
 ---
-title: "Lo que aprendí levantando quejas casa por casa"
-dek: "La política que sí cambia cosas rara vez cabe en un discurso. Empieza en una banqueta rota y un formulario mal diseñado."
-autor: "Mateo · Tu Nombre"
+title: Lo que aprendí levantando quejas casa por casa
+dek: La política que sí cambia cosas rara vez cabe en un discurso. Empieza en
+  una banqueta rota y un formulario mal diseñado.
+autor: "Carlos Mateo López De la O "
 fecha: 2026-07-10
-edicion: "Nº 214"
+edicion: Nº 214
 ---
 
 La primera vez que toqué una puerta para levantar una queja ciudadana, me abrió una señora que ya había reportado lo mismo tres veces. Su drenaje llevaba meses tirando agua a la calle. Me miró con esa mezcla de amabilidad y cansancio que uno aprende a reconocer, y me dijo: "otra vez lo apunto, pero ya para qué".
