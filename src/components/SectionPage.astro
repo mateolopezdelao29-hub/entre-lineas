@@ -36,8 +36,6 @@ const parrilla = todas.filter(n => n.id !== principal?.id).slice(3);
         <span class="kicker lead-kicker-rule">{titulo}{principal.data.subtema ? ` · ${principal.data.subtema}` : ''}</span>
         <h2><a href={`/nota/${principal.id}/`}>{principal.data.title}</a></h2>
         <p class="deck">{principal.data.dek}</p>
-        <a href={`/nota/${principal.id}/`}><div class="photo"><span class="mono">EL</span></div></a>
-        <p class="caption"><em>{principal.data.autor}</em> — Entre Líneas</p>
         <div class="article-foot">
           <span class="byline">{principal.data.autor}</span><span class="dot">·</span>
           <span class="meta">{diasDesde(principal.data.fecha)}</span><span class="dot">·</span>
