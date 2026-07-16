@@ -108,7 +108,6 @@ const otras = todas.slice(1);
         <section class="grid">
           {otras.map(n => (
             <article class="story">
-              <a href={`/nota/${n.id}/`}><div class="thumb"><span>EL</span></div></a>
               <span class="kicker">{n.data.subtema ?? 'Datos'}</span>
               <h3><a href={`/nota/${n.id}/`}>{n.data.title}</a></h3>
               <p>{n.data.dek}</p>
