@@ -12,7 +12,6 @@ interface Props {
 const { href, kicker, title, dek, autor = 'Redacción', fecha, monogram = 'EL' } = Astro.props;
 ---
 <article class="story">
-  <a href={href}><div class="thumb"><span>{monogram}</span></div></a>
   <span class="kicker">{kicker}</span>
   <h3><a href={href}>{title}</a></h3>
   {dek && <p>{dek}</p>}
