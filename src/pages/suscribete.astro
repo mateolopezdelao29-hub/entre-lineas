@@ -1,0 +1,44 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Suscríbete">
+  <header class="manifesto wrap">
+    <div class="eyebrow">Newsletter</div>
+    <h1>Recibe <span class="em">Entre Líneas</span> en tu correo</h1>
+    <div class="sig">Nuestras investigaciones, columnas y voces académicas — directo en tu bandeja, sin ruido.</div>
+  </header>
+
+  <section class="mission narrow" style="padding:40px 0;">
+    <p style="text-align:center;font-size:19px;">Un correo cada semana con lo que se publicó en <strong>Entre Líneas</strong>: la investigación de fondo, la columna del jueves, las voces de la academia y el análisis de datos. Sin spam, sin publicidad, sin costo.</p>
+
+    <div style="max-width:520px;margin:36px auto 0;padding:32px;border:3px double var(--ink);background:var(--paper-2);">
+      <script async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="25ff615d-47f0-4b54-b848-437d167b1ebc"></script>
+    </div>
+
+    <p style="text-align:center;font-family:'Archivo',sans-serif;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-top:24px;">
+      Puedes darte de baja en cualquier momento · Respetamos tu privacidad
+    </p>
+  </section>
+
+  <section class="wrap" style="margin-top:40px;">
+    <div class="band"><span>¿Qué recibirás?</span></div>
+    <div class="principles">
+      <div class="principle">
+        <h3>Investigación de fondo</h3>
+        <p>Reportajes largos con documentos, datos y método reproducible. Uno o dos al mes, para leer con calma.</p>
+      </div>
+      <div class="principle">
+        <h3>La columna semanal</h3>
+        <p>Cada jueves, la columna de la casa: la política que sí cambia cosas, contada a ras de banqueta.</p>
+      </div>
+      <div class="principle">
+        <h3>Voces de la academia</h3>
+        <p>Argumentos con evidencia de investigadores universitarios. Una firma distinta cada día de la semana.</p>
+      </div>
+      <div class="principle">
+        <h3>Periodismo de datos</h3>
+        <p>Visualizaciones y análisis con bases descargables. Los números también cuentan historias.</p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
