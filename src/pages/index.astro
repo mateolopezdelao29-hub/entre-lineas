@@ -21,8 +21,6 @@ const SECCIONES: Record<string,string> = {
         <span class="kicker lead-kicker-rule">{SECCIONES[portada.data.seccion]}{portada.data.subtema ? ` · ${portada.data.subtema}` : ''}</span>
         <h2 class="headline-xl"><a href={`/nota/${portada.id}/`}>{portada.data.title}</a></h2>
         <p class="deck">{portada.data.dek}</p>
-        <a href={`/nota/${portada.id}/`}><div class="photo"><span class="mono">EL</span></div></a>
-        <p class="caption"><em>Reconstrucción a partir de documentos.</em> — {portada.data.autor}</p>
         <div class="article-foot">
           <span class="byline">Por {portada.data.autor}</span>
           <span class="dot">·</span>
