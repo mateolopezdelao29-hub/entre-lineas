@@ -1,6 +1,6 @@
 ---
-title: La ciudad que se mueve a distintas velocidades
-dek: Cuánto tarda realmente llegar a donde vas
+title: La ciudad en dos ruedas
+dek: Quién puede pedalear y quién no?
 seccion: ciudad
 subtema: Movilidad
 autor: Redacción · Ciudad
@@ -9,102 +9,94 @@ lectura: 7 min
 portada: false
 destacada: false
 ---
-## **La movilidad como reloj social**
+## **La bicicleta como termómetro urbano**
 
-En la Ciudad de México, moverse no es solo desplazarse: es medir el tiempo que la ciudad le quita o le devuelve a cada persona. Para entender esa desigualdad temporal, analizamos tres rutas cotidianas en distintos modos de transporte: **Metro, Metrobús y automóvil**. Todas cubren la misma distancia: **7.2 kilómetros**.
+La bicicleta es el modo de transporte más eficiente en distancias cortas. Pero en la Ciudad de México, pedalear no depende solo de la voluntad: depende del territorio. Para entender esa desigualdad, analizamos dos corredores ciclistas con perfiles opuestos: **Avenida Amsterdam (Condesa)** y **Eje 1 Norte (Centro–Guerrero)**.
 
-La pregunta era directa: **¿Cuánto tarda realmente llegar?**  La respuesta revela que la ciudad no se mueve a una sola velocidad.
+Ambos tienen flujo ciclista constante. Ambos conectan zonas densas. Pero solo uno permite pedalear sin miedo.
 
-## **Ruta 1: Metro — velocidad constante, saturación variable**
+## **Amsterdam: la bicicleta como extensión del espacio público**
 
-**Trayecto:** Metro Etiopía → Metro Centro Médico → Metro Balderas 
+Amsterdam es un corredor donde la bicicleta fluye casi como parte del paisaje. La infraestructura no es perfecta, pero sí funcional.
 
-**Distancia:** 7.2 km 
+**Datos medidos:**
 
-**Hora medida:** 8:00 a.m.
+* **Ancho promedio de ciclovía:** 1.80 m
+* **Continuidad:** 94%
+* **Intersecciones seguras:** 82%
+* **Velocidad ciclista promedio:** 17 km/h
+* **Conflictos con vehículos:** 1.2 por kilómetro
+* **Iluminación:** 22–28 lux
+* **Volumen ciclista:** 310 ciclistas/hora (hora pico)
 
-**Datos técnicos:**
+**Interpretación:**  Amsterdam permite pedalear sin interrupciones. La ciclovía es continua, los cruces están señalizados y la convivencia con peatones es estable. La bicicleta se integra al tejido urbano como un modo legítimo, no como una excepción.
 
-* **Tiempo total:** 26 minutos
-* **Tiempo de espera promedio:** 3.4 minutos
-* **Saturación:** 85% (hora pico)
-* **Velocidad comercial:** 16.6 km/h
-* **Interrupciones:** 2 (reducción de velocidad por afluencia)
+## **Eje 1 Norte: pedalear como acto de resistencia**
 
-**Interpretación:**  El Metro mantiene una velocidad relativamente estable, pero la saturación modifica la experiencia. No es el modo más lento, pero sí el más comprimido. La eficiencia depende de la capacidad del usuario para tolerar densidad.
+En Eje 1 Norte, la bicicleta existe, pero no está protegida. El corredor es caótico, saturado y hostil para cualquier ciclista que no sea experto.
 
-## **Ruta 2: Metrobús — velocidad dependiente del tráfico**
+**Datos medidos:**
 
-**Trayecto:** Etiopía → Nuevo León → Reforma
+* **Ancho promedio de ciclovía:** 0.90 m (cuando existe)
+* **Continuidad:** 41%
+* **Intersecciones seguras:** 19%
+* **Velocidad ciclista promedio:** 9 km/h
+* **Conflictos con vehículos:** 7.8 por kilómetro
+* **Iluminación:** 8–12 lux
+* **Volumen ciclista:** 140 ciclistas/hora (hora pico)
 
-**Distancia:** 7.2 km
+**Interpretación:**  El ciclista debe negociar cada metro: taxis que invaden el carril, camiones que cierran paso, comercio que ocupa la infraestructura, baches, giros sin señalización. Pedalear aquí es posible, pero no seguro. La ciudad no protege al ciclista; el ciclista se protege solo.
 
-**Hora medida:** 8:00 a.m.
+## **Comparación directa: Amsterdam vs. Eje 1 Norte**
 
-**Datos técnicos:**
+La distancia entre ambos corredores es de apenas 4 kilómetros. La diferencia en experiencia ciclista es de años luz.
 
-* **Tiempo total:** 38 minutos
-* **Tiempo de espera promedio:** 5.2 minutos
-* **Velocidad comercial:** 11.3 km/h
-* **Interrupciones:** 4 (tráfico, ascenso lento, semáforos)
-* **Saturación:** 72%
+### **Infraestructura**
 
-**Interpretación:**  Aunque circula por carril confinado, el Metrobús pierde velocidad en intersecciones y zonas de ascenso. La experiencia es menos densa que el Metro, pero más lenta. La infraestructura ayuda, pero no garantiza fluidez.
+* Amsterdam: ciclovía continua
+* Eje 1 Norte: ciclovía fragmentada
 
-## **Ruta 3: Automóvil — velocidad que depende del privilegio**
+### **Seguridad**
 
-**Trayecto:** Etiopía → Viaducto → Reforma
+* Amsterdam: cruces con señalización
+* Eje 1 Norte: cruces sin prioridad ciclista
 
-**Distancia:** 7.2 km
+### **Conflictos**
 
-**Hora medida:** 8:00 a.m.
+* Amsterdam: 1.2 por km
+* Eje 1 Norte: 7.8 por km
 
-**Datos técnicos:**
+### **Velocidad**
 
-* **Tiempo total:** 54 minutos
-* **Velocidad comercial:** 8 km/h
-* **Interrupciones:** 11 (semáforos, tráfico, incorporaciones)
-* **Costo estimado:** $58 pesos (gasolina + estacionamiento)
-* **Emisiones generadas:** 1.3 kg CO₂
+* Amsterdam: 17 km/h
+* Eje 1 Norte: 9 km/h
 
-**Interpretación:**  El automóvil es el modo más lento y el más costoso. La promesa de “libertad” se diluye en el tráfico. La velocidad depende del poder adquisitivo, no de la infraestructura.
+### **Iluminación**
 
-# **Comparación directa: tres modos, una misma distancia**
+* Amsterdam: 22–28 lux
+* Eje 1 Norte: 8–12 lux
 
-### **Tiempo total por modo**
+La bicicleta no es igual en toda la ciudad. Es más segura donde hay inversión, mantenimiento y planeación. Es más peligrosa donde la infraestructura es residual.
 
-* Metro: **26 min**
-* Metrobús: **38 min**
-* Automóvil: **54 min**
+## **La movilidad ciclista como indicador de desigualdad**
 
-### **Velocidad comercial**
+La bicicleta revela algo que el automóvil oculta: **qué tan cerca está cada colonia de ser una ciudad moderna.**
 
-* Metro: **16.6 km/h**
-* Metrobús: **11.3 km/h**
-* Automóvil: **8 km/h**
+Donde la infraestructura ciclista funciona:
 
-### **Costo**
+* la gente se mueve más rápido
+* hay menos emisiones
+* hay menos tráfico
+* hay más vida pública
 
-* Metro: **$5**
-* Metrobús: **$6**
-* Automóvil: **$58**
+Donde no funciona:
 
-### **Saturación**
+* la bicicleta se vuelve un riesgo
+* el ciclista se vuelve invisible
+* la ciudad se vuelve más lenta y más cara
 
-* Metro: **Alta**
-* Metrobús: **Media‑alta**
-* Automóvil: **Baja (pero lenta)**
+La movilidad ciclista no es un lujo: es un servicio público. Y hoy, ese servicio está distribuido de manera desigual.
 
-# **La movilidad como desigualdad temporal**
+Amsterdam y Eje 1 Norte muestran dos ciudades distintas: una donde pedalear es parte de la vida cotidiana, y otra donde pedalear es un acto de valentía.
 
-Moverse 7.2 kilómetros puede significar:
-
-* **26 minutos** para quien usa Metro.
-* **38 minutos** para quien usa Metrobús.
-* **54 minutos** para quien usa automóvil.
-
-La ciudad no solo distribuye espacio de manera desigual: **distribuye tiempo**. Y el tiempo es el recurso más valioso de la vida urbana.
-
-La movilidad en la ciudad no es un sistema: es una jerarquía. Cada modo ofrece una experiencia distinta, un costo distinto y un tiempo distinto. La distancia es la misma, pero la ciudad decide —según el modo de transporte— cuánto tarda cada persona en llegar.
-
-Moverse es un derecho. Pero hoy, moverse es una desigualdad.
+La bicicleta podría ser la solución a muchos problemas urbanos. Pero para eso, primero tiene que ser posible.
