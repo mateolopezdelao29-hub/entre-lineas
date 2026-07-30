@@ -1,84 +1,85 @@
 ---
-title: ¿Cómo compra el gobierno? Una radiografía de la contratación pública en México
-dek: Cada año, los gobiernos federal, estatales y municipales destinan billones
-  de pesos a la compra de bienes, servicios y obras públicas. Desde medicamentos
-  hasta carreteras, la contratación pública influye directamente en la calidad
-  de los servicios que recibe la ciudadanía. Esta investigación explica cómo
-  funciona el sistema mexicano de compras gubernamentales, cuáles son sus
-  principales mecanismos, los riesgos asociados y por qué la transparencia en
-  los contratos es fundamental para una administración eficiente.
+title: "Más allá de las cifras: los desafíos de la seguridad pública en México"
+dek: La seguridad pública es uno de los temas que más preocupan a la ciudadanía
+  y uno de los mayores retos para los distintos órdenes de gobierno. Sin
+  embargo, comprender la seguridad requiere ir más allá de los índices
+  delictivos. Esta investigación analiza cómo se mide la seguridad en México,
+  cuáles son sus principales desafíos, el papel de las instituciones y la
+  importancia de los datos para diseñar políticas públicas más efectivas.
 seccion: investigacion
-subtema: Contratación
+subtema: Seguridad
 autor: "Redacción "
 fecha: 2026-07-29
 lectura: 7 min
-portada: true
-destacada: true
+portada: false
+destacada: false
 ---
-## El gasto público comienza con una compra
+## La seguridad como condición para el desarrollo
 
-Cada hospital que adquiere medicamentos, cada escuela que construye un aula y cada municipio que pavimenta una calle comparten un mismo proceso: la contratación pública.
+La seguridad pública no solo consiste en combatir el delito. También representa una condición indispensable para el desarrollo económico, la convivencia social y el ejercicio pleno de los derechos de las personas.
 
-Lejos de ser un trámite administrativo, las compras gubernamentales representan una de las actividades más relevantes del Estado. A través de ellas se materializan políticas públicas, se ejecutan presupuestos y se prestan servicios esenciales para millones de personas.
+Cuando una comunidad se siente segura, aumentan la inversión, la actividad comercial, el uso de los espacios públicos y la participación ciudadana. Por el contrario, la percepción de inseguridad modifica la vida cotidiana: cambia los horarios, limita la movilidad y reduce la confianza entre vecinos.
 
-Por ello, la forma en que el gobierno selecciona a sus proveedores tiene un impacto directo en la calidad del gasto público y en la confianza ciudadana.
+Por ello, garantizar la seguridad es una responsabilidad compartida entre autoridades, instituciones y sociedad.
 
-## ¿Qué es la contratación pública?
+## ¿Cómo se mide la seguridad?
 
-La contratación pública es el conjunto de procedimientos mediante los cuales una institución gubernamental adquiere bienes, contrata servicios o ejecuta obras utilizando recursos públicos.
+Uno de los errores más comunes es evaluar la seguridad únicamente a partir del número de delitos registrados.
 
-Estos procedimientos buscan garantizar que el dinero de los contribuyentes se utilice de manera eficiente, promoviendo condiciones de competencia, igualdad entre participantes y transparencia en la toma de decisiones.
+En realidad, existen múltiples indicadores que permiten comprender el fenómeno de manera más amplia. Entre ellos se encuentran la incidencia delictiva, la percepción ciudadana de inseguridad, la confianza en las instituciones de seguridad, la cifra negra —es decir, los delitos que no se denuncian— y los tiempos de respuesta de las autoridades.
 
-En términos generales, el objetivo es que el gobierno obtenga la mejor relación entre precio, calidad y resultados, evitando favoritismos o decisiones arbitrarias.
+Cada uno ofrece una perspectiva distinta y, en conjunto, permiten construir un diagnóstico más preciso sobre la situación de una región.
 
-## Las principales formas de contratar
+## El reto de la cifra negra
 
-En México existen distintos mecanismos para contratar proveedores, cada uno diseñado para atender diferentes circunstancias.
+No todos los delitos llegan a las estadísticas oficiales.
 
-La **licitación pública** es el procedimiento ordinario y el que ofrece mayores condiciones de competencia. En este esquema, cualquier empresa que cumpla con los requisitos establecidos puede presentar una propuesta, permitiendo que la autoridad compare diversas ofertas antes de tomar una decisión.
+Diversas encuestas nacionales muestran que una parte significativa de los delitos no se denuncia debido a factores como la falta de confianza en las autoridades, la percepción de que denunciar no generará resultados o la complejidad de los trámites.
 
-La **invitación restringida** consiste en convocar únicamente a un número limitado de empresas previamente seleccionadas por la autoridad, mientras que la **adjudicación directa** permite contratar a un proveedor específico sin realizar una competencia abierta, siempre bajo los supuestos previstos por la legislación.
+Este fenómeno, conocido como cifra negra, representa uno de los principales desafíos para el diseño de políticas públicas, ya que dificulta conocer con exactitud la magnitud del problema.
 
-Aunque los tres mecanismos son legales, la licitación pública suele considerarse la opción que ofrece mayores garantías de transparencia y competencia.
+Por ello, las encuestas de victimización se han convertido en un complemento indispensable de los registros administrativos.
 
-## ¿Por qué importa la competencia?
+## Prevención, investigación y proximidad
 
-Cuando varias empresas compiten por un contrato público, aumenta la posibilidad de obtener mejores precios, productos de mayor calidad e innovación en los servicios ofrecidos.
+Las estrategias modernas de seguridad reconocen que la prevención es tan importante como la reacción.
 
-La competencia también reduce el riesgo de concentrar contratos en un número reducido de proveedores y fortalece la confianza en las instituciones encargadas de administrar recursos públicos.
+La prevención del delito incluye acciones como mejorar el alumbrado público, recuperar espacios comunitarios, fortalecer programas educativos, generar oportunidades para jóvenes y fomentar la participación vecinal.
 
-Por el contrario, cuando los procesos carecen de competencia o presentan información insuficiente, resulta más difícil evaluar si el dinero público fue utilizado de la mejor manera.
+Al mismo tiempo, resulta indispensable contar con instituciones capaces de investigar los delitos, sancionar a los responsables y garantizar el acceso a la justicia.
 
-## Transparencia desde el primer contrato
+En este contexto, la policía de proximidad ha adquirido relevancia como un modelo que busca fortalecer la comunicación entre autoridades y ciudadanía para atender los problemas antes de que escalen.
 
-En los últimos años, México ha avanzado en la digitalización de la información relacionada con las compras gubernamentales.
+## La importancia de los datos
 
-Hoy es posible consultar convocatorias, contratos, montos adjudicados, empresas participantes y otros documentos que permiten conocer cómo se ejercen miles de millones de pesos en recursos públicos.
+La tecnología y el análisis de datos han transformado la manera en que se diseñan las estrategias de seguridad.
 
-La disponibilidad de esta información ha impulsado investigaciones académicas, periodísticas y ciudadanas que analizan patrones de contratación, concentración de proveedores y eficiencia del gasto.
+Actualmente es posible identificar zonas con mayor incidencia delictiva, analizar patrones temporales, asignar recursos de manera más eficiente y evaluar el impacto de distintas políticas públicas.
 
-La transparencia no solo permite detectar posibles irregularidades; también contribuye a mejorar la planeación y evaluación de las políticas públicas.
+Los mapas del delito, las plataformas de denuncia y los sistemas de información geográfica permiten que las decisiones se basen cada vez más en evidencia y no únicamente en percepciones.
 
-## Los desafíos pendientes
+Sin embargo, el uso de datos también exige proteger la privacidad de las personas y garantizar que la información sea utilizada con criterios éticos y legales.
 
-A pesar de los avances tecnológicos, la contratación pública continúa enfrentando diversos retos.
+## Seguridad y confianza institucional
 
-Entre ellos destacan la calidad de la información publicada, la estandarización de bases de datos entre instituciones, la interoperabilidad de plataformas digitales y la necesidad de fortalecer las capacidades técnicas de las autoridades responsables de los procesos de adquisición.
+La percepción de seguridad no depende exclusivamente de la presencia policial.
 
-Otro desafío consiste en facilitar que la ciudadanía pueda comprender la información disponible. Publicar miles de documentos no siempre equivale a generar transparencia si los datos resultan difíciles de consultar o analizar.
+La confianza en las instituciones de procuración de justicia, la rapidez en la atención de emergencias, la transparencia en las investigaciones y la eficacia de los procesos judiciales influyen de manera directa en la sensación de seguridad de la población.
 
-## El papel de los datos abiertos
+Cuando las personas consideran que las instituciones funcionan de manera imparcial y eficiente, aumenta la disposición a denunciar delitos y colaborar con las autoridades.
 
-Los datos abiertos han transformado la manera en que se estudian las contrataciones públicas.
+Por el contrario, la desconfianza puede limitar la efectividad de cualquier estrategia de seguridad.
 
-Gracias a bases de datos estructuradas, investigadores, periodistas y organizaciones civiles pueden identificar tendencias, comparar instituciones, detectar concentraciones de mercado y evaluar el desempeño de distintos procesos de compra.
+## Un desafío compartido
 
-Este enfoque permite pasar de revisar contratos individuales a analizar el comportamiento completo del sistema de contratación pública.
+La seguridad pública no puede entenderse únicamente como responsabilidad de las corporaciones policiales.
 
-En una administración moderna, la apertura de datos representa una herramienta indispensable para fortalecer la rendición de cuentas y promover decisiones basadas en evidencia.
+Su construcción involucra a gobiernos, escuelas, empresas, organizaciones civiles, comunidades y ciudadanos. Factores como la educación, el desarrollo urbano, el acceso a oportunidades económicas y la cohesión social también influyen en la prevención de la violencia y la delincuencia.
 
-La contratación pública es mucho más que un procedimiento administrativo. Constituye uno de los principales instrumentos mediante los cuales el Estado transforma recursos públicos en bienes y servicios para la sociedad.
+Por ello, las políticas de seguridad más efectivas suelen combinar acciones de prevención, inteligencia, investigación, participación ciudadana y evaluación constante.
 
-Un sistema de compras eficiente requiere reglas claras, competencia efectiva, información accesible y mecanismos sólidos de supervisión. Cuando estos elementos funcionan de manera conjunta, no solo se protege el patrimonio público, sino que también se fortalece la confianza ciudadana en las instituciones.
+Hablar de seguridad pública implica analizar mucho más que estadísticas delictivas. Significa comprender las condiciones que permiten a las personas vivir, trabajar y desarrollarse con tranquilidad.
 
-Comprender cómo compra el gobierno es comprender cómo se administran los recursos de toda la sociedad. Ese conocimiento es el primer paso para exigir procesos más transparentes, eficientes y orientados al interés público.
+Enfrentar este desafío requiere instituciones sólidas, información confiable y políticas públicas basadas en evidencia. La seguridad no se construye únicamente mediante operativos o patrullajes; también depende de la capacidad del Estado para prevenir la violencia, fortalecer la justicia y recuperar la confianza ciudadana.
+
+En un entorno cada vez más complejo, el análisis de datos y la participación social serán elementos clave para construir comunidades más seguras y resilientes.
