@@ -1,86 +1,104 @@
 ---
-title: "El Congreso de la Unión: cómo funciona el poder que crea las leyes en México"
-dek: El Congreso de la Unión es una de las instituciones más importantes del
-  Estado mexicano. En él se aprueban leyes, se analiza el presupuesto federal y
-  se supervisa parte de la actuación del Poder Ejecutivo. Sin embargo, su
-  funcionamiento suele ser poco conocido por la ciudadanía. Esta investigación
-  explica cómo está integrado el Congreso, cuáles son sus principales
-  atribuciones y por qué su trabajo influye en prácticamente todos los ámbitos
-  de la vida pública.
+title: "La economía mexicana: cómo funciona el sistema que determina el
+  crecimiento y el bienestar del país"
+dek: "La economía influye en prácticamente todos los aspectos de la vida
+  cotidiana: el empleo, los precios, los salarios, la inversión y el poder
+  adquisitivo de las familias. Sin embargo, conceptos como inflación,
+  crecimiento económico, política monetaria o productividad suelen parecer
+  lejanos para gran parte de la población. Esta investigación explica cómo
+  funciona la economía mexicana, cuáles son sus principales componentes y por
+  qué comprenderla resulta fundamental para analizar las decisiones públicas y
+  privadas."
 seccion: nacional
-subtema: Congreso
+subtema: Economía
 autor: "Redacción "
 fecha: 2026-07-29
 lectura: 8 min
 portada: true
 destacada: true
 ---
-## El poder de hacer las leyes
+## La economía está presente en la vida diaria
 
-Toda sociedad necesita reglas que definan derechos, obligaciones y mecanismos para resolver conflictos.
+Cada decisión económica tiene consecuencias en la vida cotidiana.
 
-En México, la responsabilidad de elaborar, discutir, modificar y aprobar las leyes corresponde al Poder Legislativo, representado por el Congreso de la Unión.
+Cuando aumenta el precio de un producto, cuando una empresa decide contratar más trabajadores o cuando el gobierno modifica sus impuestos, existen procesos económicos detrás de esos cambios.
 
-Cada reforma constitucional, cada ley federal y buena parte de las decisiones relacionadas con el gasto público pasan por este órgano antes de entrar en vigor.
+La economía no se limita a bancos, mercados financieros o grandes empresas. También está presente en las decisiones de millones de familias que administran sus ingresos, consumen productos, ahorran o buscan oportunidades laborales.
 
-Por ello, comprender el funcionamiento del Congreso es comprender una parte esencial del sistema democrático mexicano.
+Comprender la economía permite interpretar mejor los cambios que afectan a la sociedad.
 
-## ¿Qué es el Congreso de la Unión?
+## ¿Qué es la economía?
 
-El Congreso de la Unión es el órgano depositario del Poder Legislativo Federal.
+La economía es la ciencia social que estudia cómo las personas, empresas y gobiernos administran recursos limitados para satisfacer necesidades ilimitadas.
 
-Su principal función consiste en elaborar las leyes que regulan la vida pública del país, además de ejercer funciones de control político, aprobar el presupuesto federal y representar a la ciudadanía y a las entidades federativas dentro del proceso legislativo.
+Debido a que los recursos son escasos, las sociedades deben tomar decisiones sobre qué producir, cómo producirlo y quién recibe los beneficios de esa producción.
 
-A diferencia del Poder Ejecutivo, que administra el gobierno, o del Poder Judicial, que interpreta y aplica las leyes, el Congreso tiene la responsabilidad de construir el marco jurídico que rige al Estado mexicano.
+Estas decisiones influyen en temas como el empleo, la distribución del ingreso, la innovación tecnológica y el desarrollo de los países.
 
-## Un Congreso bicameral
+## Los principales actores económicos
 
-México cuenta con un Congreso bicameral, integrado por dos cámaras con funciones complementarias.
+La economía funciona mediante la interacción de distintos actores.
 
-La **Cámara de Diputados** representa principalmente a la población. Entre sus atribuciones destacan la aprobación del Presupuesto de Egresos de la Federación, la revisión de la Cuenta Pública y diversas facultades de control sobre el ejercicio del gasto público.
+Las **familias** participan principalmente como consumidores y trabajadores. Sus decisiones de consumo y ahorro influyen en la demanda de bienes y servicios.
 
-Por su parte, el **Senado de la República** representa a las entidades federativas y participa en asuntos relacionados con la política exterior, la ratificación de nombramientos, tratados internacionales y reformas constitucionales, además de intervenir en el proceso legislativo ordinario.
+Las **empresas** producen bienes, ofrecen servicios, generan empleos e invierten en innovación.
 
-La existencia de dos cámaras permite que las iniciativas sean revisadas desde distintas perspectivas antes de convertirse en ley.
+El **gobierno** establece reglas, recauda impuestos, administra recursos públicos y aplica políticas económicas para influir en el funcionamiento del sistema.
 
-## ¿Cómo nace una ley?
+Finalmente, el **sector externo** incluye las relaciones comerciales y financieras con otros países mediante exportaciones, importaciones e inversión extranjera.
 
-El procedimiento legislativo inicia con la presentación de una iniciativa.
+## Crecimiento económico y desarrollo
 
-Las propuestas pueden ser presentadas por legisladores, el Poder Ejecutivo, congresos estatales y otros actores facultados por la Constitución.
+Uno de los principales objetivos económicos de los países es lograr crecimiento económico.
 
-Posteriormente, la iniciativa es enviada a comisiones especializadas, donde se analiza su contenido, se reciben opiniones técnicas y, en su caso, se elaboran modificaciones.
+Este concepto se refiere al aumento de la producción de bienes y servicios dentro de una economía durante un periodo determinado, generalmente medido mediante el Producto Interno Bruto (PIB).
 
-Después pasa al pleno de la cámara correspondiente para su discusión y votación. Si es aprobada, generalmente debe ser revisada por la otra cámara antes de concluir el proceso legislativo.
+Sin embargo, el crecimiento económico no siempre significa mayor bienestar para toda la población.
 
-Finalmente, cuando se cumplen las etapas constitucionales, la norma puede publicarse y entrar en vigor.
+Por ello, los especialistas también analizan factores como la distribución del ingreso, la calidad del empleo, el acceso a servicios básicos y la reducción de desigualdades.
 
-## Mucho más que aprobar leyes
+El desarrollo económico implica mejorar las condiciones de vida, no únicamente producir más.
 
-El Congreso desempeña funciones que van más allá del trabajo legislativo.
+## La inflación y el poder adquisitivo
 
-Entre ellas se encuentran la fiscalización del gasto público, el análisis de informes gubernamentales, la ratificación de determinados nombramientos, la aprobación de tratados internacionales y el seguimiento de diversos asuntos de interés nacional.
+Uno de los fenómenos económicos que más impacta a la ciudadanía es la inflación.
 
-Estas atribuciones convierten al Poder Legislativo en un contrapeso fundamental dentro del sistema democrático.
+La inflación representa el aumento generalizado de los precios de bienes y servicios durante un periodo determinado.
 
-Su labor no consiste únicamente en crear normas, sino también en supervisar el ejercicio del poder público.
+Cuando los precios aumentan más rápido que los ingresos, las personas pierden capacidad de compra, ya que con la misma cantidad de dinero pueden adquirir menos productos.
 
-## Comisiones: donde comienza el trabajo legislativo
+Por esta razón, mantener la estabilidad de precios es uno de los principales objetivos de las autoridades económicas.
 
-Aunque las sesiones del pleno suelen recibir mayor atención pública, gran parte del trabajo parlamentario ocurre dentro de las comisiones legislativas.
+## El papel del Banco Central
 
-Estos órganos especializados analizan iniciativas, solicitan información técnica, realizan consultas con especialistas y elaboran los dictámenes que posteriormente serán discutidos por el conjunto de los legisladores.
+En México, la política monetaria está a cargo del Banco de México, institución encargada de procurar la estabilidad del poder adquisitivo de la moneda.
 
-El funcionamiento eficiente de las comisiones resulta indispensable para mejorar la calidad de las leyes y fortalecer el proceso parlamentario.
+Entre sus principales herramientas se encuentran las decisiones relacionadas con las tasas de interés, las cuales influyen en el costo del crédito, el consumo y la inversión.
 
-## Transparencia y Parlamento Abierto
+Las decisiones de política monetaria buscan equilibrar distintos objetivos económicos, evitando tanto aumentos excesivos de precios como afectaciones innecesarias al crecimiento.
 
-En los últimos años, diversos congresos han impulsado políticas de Parlamento Abierto con el objetivo de acercar el trabajo legislativo a la ciudadanía.
+## México en la economía global
 
-La publicación de iniciativas, votaciones, versiones estenográficas, asistencia de legisladores y transmisiones en vivo permite que la sociedad conozca cómo se desarrollan las decisiones parlamentarias.
+La economía mexicana mantiene una relación estrecha con los mercados internacionales.
 
-La transparencia fortalece la rendición de cuentas y facilita la participación ciudadana en el proceso legislativo.
+El país participa activamente en el comercio mundial mediante exportaciones de productos manufacturados, automóviles, tecnología, alimentos y diversos bienes industriales.
 
-El Congreso de la Unión constituye uno de los pilares de la democracia mexicana. Su función no se limita a aprobar leyes, sino que también participa en la supervisión del gobierno, la representación política y el control del gasto público.
+La cercanía con Estados Unidos, sus acuerdos comerciales y su capacidad manufacturera han convertido a México en un actor relevante dentro de las cadenas globales de producción.
 
-Comprender cómo funciona el Poder Legislativo permite a la ciudadanía evaluar con mayor precisión el trabajo de sus representantes y participar de manera más informada en la vida democrática. En una democracia constitucional, conocer el Congreso es comprender cómo se construyen las reglas que organizan la vida del país.
+Al mismo tiempo, esta integración genera desafíos relacionados con competitividad, innovación y dependencia de mercados externos.
+
+## Los retos económicos de México
+
+México enfrenta diversos desafíos estructurales para fortalecer su crecimiento económico.
+
+Entre ellos se encuentran aumentar la productividad, mejorar la educación, impulsar la innovación, reducir la informalidad laboral y generar condiciones que incentiven la inversión.
+
+Además, factores como la infraestructura, la seguridad, la certeza jurídica y la calidad institucional influyen directamente en la capacidad del país para atraer proyectos productivos.
+
+El desempeño económico depende de múltiples elementos que interactúan entre sí.
+
+La economía mexicana es un sistema complejo donde interactúan millones de decisiones individuales, empresariales y gubernamentales.
+
+Comprender conceptos como inflación, crecimiento, inversión y productividad permite analizar con mayor profundidad las políticas públicas y los cambios que afectan la vida cotidiana.
+
+Más allá de las cifras, la economía representa la capacidad de una sociedad para generar oportunidades, mejorar las condiciones de vida y construir un desarrollo sostenible en el largo plazo.
