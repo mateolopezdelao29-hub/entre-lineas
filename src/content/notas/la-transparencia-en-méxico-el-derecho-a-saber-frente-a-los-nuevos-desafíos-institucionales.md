@@ -1,13 +1,13 @@
 ---
-title: "Licitación pública, invitación restringida y adjudicación directa: ¿Cómo
-  elige el gobierno a sus proveedores?"
-dek: La contratación pública no sigue un único procedimiento. Dependiendo de las
-  características del proyecto, el gobierno puede recurrir a licitaciones
-  públicas, invitaciones restringidas o adjudicaciones directas. Cada mecanismo
-  tiene objetivos, ventajas y riesgos distintos. Esta investigación explica cómo
-  funcionan estos procedimientos, cuándo pueden utilizarse y por qué su correcta
-  aplicación resulta fundamental para garantizar el uso eficiente y transparente
-  de los recursos públicos.
+title: "Contrataciones abiertas: el estándar internacional para transparentar el
+  gasto público"
+dek: La publicación de contratos gubernamentales ya no es suficiente para
+  garantizar la transparencia. En los últimos años, diversos países han adoptado
+  el modelo de contrataciones abiertas, un enfoque que busca divulgar
+  información de cada etapa del proceso de compra en formatos accesibles y
+  reutilizables. Esta investigación analiza qué son las contrataciones abiertas,
+  cómo funcionan y por qué se han convertido en un referente internacional para
+  fortalecer la rendición de cuentas.
 seccion: investigacion
 subtema: Contratación
 autor: "Redacción "
@@ -16,76 +16,72 @@ lectura: 8 min
 portada: true
 destacada: false
 ---
-## Tres caminos para un mismo objetivo
+## Una nueva forma de entender las compras públicas
 
-Cada año, las instituciones públicas celebran miles de contratos para adquirir bienes, contratar servicios o ejecutar obras. Sin embargo, no todos estos procesos siguen el mismo procedimiento.
+Durante décadas, la transparencia en las contrataciones gubernamentales consistió principalmente en publicar contratos una vez que el proceso había concluido.
 
-La legislación mexicana contempla distintos mecanismos de contratación que buscan responder a necesidades específicas sin perder de vista principios como la legalidad, la eficiencia, la competencia y la transparencia.
+Aunque esta práctica representó un avance importante, con frecuencia resultaba insuficiente para comprender cómo se desarrolló la contratación, quiénes participaron, cuáles fueron los criterios de evaluación y qué ocurrió durante la ejecución del contrato.
 
-Comprender estas modalidades permite analizar con mayor precisión cómo se ejerce el gasto público y bajo qué criterios se seleccionan los proveedores.
+Ante esta necesidad surgió el concepto de contrataciones abiertas, un modelo que propone transparentar todo el ciclo de vida de las compras públicas.
 
-## La licitación pública: la regla general
+## ¿Qué son las contrataciones abiertas?
 
-La licitación pública es el procedimiento ordinario de contratación.
+Las contrataciones abiertas son un conjunto de principios y prácticas que promueven la publicación sistemática de información relacionada con cada etapa de una contratación pública.
 
-Consiste en una convocatoria abierta mediante la cual cualquier empresa o persona que cumpla los requisitos establecidos puede presentar una propuesta para competir por un contrato gubernamental.
+Este enfoque comprende desde la planeación de una compra y la publicación de la convocatoria hasta la recepción de ofertas, la adjudicación, la firma del contrato, su ejecución, las modificaciones realizadas y el cumplimiento de las obligaciones pactadas.
 
-Durante el proceso, la autoridad evalúa aspectos técnicos, jurídicos y económicos antes de seleccionar la oferta que represente las mejores condiciones para el Estado.
+El objetivo es que cualquier persona pueda reconstruir el proceso completo y comprender cómo se utilizó el dinero público.
 
-La competencia abierta favorece la igualdad de oportunidades, incentiva mejores precios y fortalece la confianza en las instituciones encargadas de administrar recursos públicos.
+## Del documento al dato
 
-Por estas razones, la licitación pública suele considerarse el mecanismo que ofrece mayores garantías de transparencia.
+Uno de los principales cambios introducidos por las contrataciones abiertas consiste en la forma de publicar la información.
 
-## La invitación restringida
+En lugar de difundir únicamente documentos en formato PDF o imágenes escaneadas, este modelo impulsa el uso de datos estructurados que pueden ser analizados mediante herramientas tecnológicas.
 
-En algunos casos, la legislación permite que las autoridades inviten únicamente a un número determinado de proveedores para presentar propuestas.
+Esta transformación facilita el trabajo de periodistas, investigadores, autoridades fiscalizadoras, empresas y organizaciones civiles interesadas en estudiar el comportamiento del gasto público.
 
-Este procedimiento, conocido como invitación restringida, busca agilizar ciertos procesos sin eliminar completamente la competencia.
+Los datos abiertos permiten detectar patrones que serían difíciles de identificar mediante la revisión manual de miles de contratos.
 
-Aunque participan menos empresas que en una licitación pública, la autoridad continúa comparando distintas ofertas antes de adjudicar el contrato.
+## Beneficios para la competencia
 
-Su utilización debe ajustarse a los supuestos previstos por la normativa correspondiente y mantenerse sujeta a mecanismos de supervisión.
+La disponibilidad de información clara y completa también beneficia al sector privado.
 
-## La adjudicación directa
+Las empresas pueden conocer con mayor anticipación las oportunidades de contratación, comprender los requisitos de participación y evaluar las condiciones del mercado público.
 
-La adjudicación directa permite contratar a un proveedor específico sin desarrollar un procedimiento competitivo.
+Al ampliar el acceso a la información, aumentan las posibilidades de competencia y se reducen las barreras para nuevos participantes.
 
-Este mecanismo puede utilizarse únicamente en los casos previstos por la ley, como determinadas situaciones de emergencia, montos inferiores a ciertos límites establecidos por la normativa o circunstancias excepcionales que justifiquen su aplicación.
+Una mayor competencia suele traducirse en mejores condiciones para el Estado y un uso más eficiente de los recursos públicos.
 
-Su objetivo es proporcionar flexibilidad administrativa cuando un procedimiento competitivo resulta inviable o desproporcionado.
+## Información para evaluar resultados
 
-Sin embargo, debido a que elimina la competencia abierta, suele requerir mayores niveles de justificación, documentación y supervisión para garantizar que la decisión responda al interés público.
+La transparencia no termina con la firma de un contrato.
 
-## ¿Por qué existen distintos procedimientos?
+Una parte fundamental del proceso consiste en conocer si la obra fue concluida, si el servicio se prestó conforme a lo acordado y si el proveedor cumplió con las obligaciones establecidas.
 
-No todas las compras gubernamentales presentan el mismo nivel de complejidad.
+Las contrataciones abiertas promueven la publicación de información sobre la ejecución contractual, incluyendo avances físicos y financieros, modificaciones, ampliaciones de plazo y resultados obtenidos.
 
-La adquisición de materiales de oficina, la construcción de infraestructura estratégica o la atención de una emergencia sanitaria requieren respuestas administrativas distintas.
+Esto permite evaluar no solo cómo se contrató, sino también qué ocurrió después.
 
-Por ello, los sistemas modernos de contratación pública combinan procedimientos abiertos con mecanismos más ágiles para atender circunstancias específicas.
+## Tecnología y análisis de datos
 
-El reto consiste en utilizar cada modalidad únicamente cuando las condiciones legales lo permitan y documentar adecuadamente las razones que sustentan la decisión.
+El desarrollo de plataformas digitales ha impulsado significativamente este modelo.
 
-## Transparencia y supervisión
+Actualmente es posible utilizar herramientas de análisis de datos para identificar concentración de contratos, detectar redes de proveedores, analizar niveles de competencia y evaluar tendencias de gasto entre distintas instituciones.
 
-La legitimidad de cualquier procedimiento de contratación depende de la información disponible sobre su desarrollo.
+La inteligencia artificial y el análisis predictivo también comienzan a utilizarse para identificar riesgos potenciales y fortalecer la supervisión preventiva de los procesos de contratación.
 
-Publicar convocatorias, criterios de evaluación, contratos firmados, modificaciones, montos ejercidos y proveedores seleccionados permite que autoridades fiscalizadoras, periodistas, investigadores y ciudadanía supervisen el ejercicio del gasto público.
+La tecnología amplía las capacidades de vigilancia tanto para las autoridades como para la sociedad.
 
-La transparencia fortalece la competencia y contribuye a prevenir irregularidades, independientemente del procedimiento utilizado.
+## Los desafíos pendientes
 
-Más información disponible significa mayores posibilidades de evaluación y rendición de cuentas.
+Implementar un sistema de contrataciones abiertas requiere más que publicar información.
 
-## El papel de la competencia
+Es necesario garantizar que los datos sean completos, actualizados, comparables y consistentes entre instituciones.
 
-Diversos organismos internacionales coinciden en que la competencia entre proveedores favorece mejores resultados para el Estado.
+Asimismo, resulta indispensable fortalecer las capacidades técnicas de las dependencias encargadas de administrar la información y promover estándares comunes que faciliten el intercambio de datos.
 
-Cuando múltiples empresas participan en igualdad de condiciones, aumenta la posibilidad de obtener mejores precios, productos de mayor calidad e innovación en la prestación de servicios.
+La calidad de la información determinará el verdadero impacto de la apertura.
 
-Al mismo tiempo, una competencia efectiva reduce riesgos asociados con la concentración de contratos y fortalece la confianza en los procesos de adquisición pública.
+Las contrataciones abiertas representan una evolución en la manera de entender la transparencia gubernamental. Al ampliar la información disponible durante todas las etapas del proceso de compra, fortalecen la rendición de cuentas, promueven la competencia y facilitan el análisis del gasto público.
 
-La competencia no garantiza por sí sola una contratación eficiente, pero constituye uno de sus principales pilares.
-
-La contratación pública combina distintos procedimientos para responder a las diversas necesidades de la administración pública. La licitación pública, la invitación restringida y la adjudicación directa cumplen funciones diferentes dentro del sistema, siempre que su utilización se ajuste a la legislación y se encuentre debidamente justificada.
-
-Más allá del procedimiento elegido, el verdadero objetivo consiste en asegurar que los recursos públicos se administren con eficiencia, transparencia y responsabilidad. Comprender cómo se seleccionan los proveedores permite a la ciudadanía evaluar con mayor profundidad el funcionamiento de las instituciones y fortalecer la rendición de cuentas.
+Más que una herramienta tecnológica, constituyen un modelo de gobernanza que busca acercar las decisiones públicas a la ciudadanía mediante información útil, accesible y verificable. En un contexto donde cada vez se exige mayor eficiencia en el uso de los recursos públicos, las contrataciones abiertas se consolidan como uno de los principales referentes internacionales para fortalecer la confianza en las instituciones.
